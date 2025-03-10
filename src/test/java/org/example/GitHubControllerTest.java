@@ -15,7 +15,7 @@ public class GitHubControllerTest {
         given()
                 .pathParam("user", testUser)
                 .when()
-                .get("/github/{user}/repos")
+                .get("/github/{user}/reposWithBranches")
                 .then()
                 .statusCode(200)
                 .contentType("application/json")

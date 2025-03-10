@@ -11,7 +11,7 @@ public class Branch {
     public String toString() {
         return "{" +
                 "\"name\": \"" + name + '\"' +
-                ", \"commit\" " + commit +
+                ", \"commit\": " + commit +
                 '}';
     }
 }
