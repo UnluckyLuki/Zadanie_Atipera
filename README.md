@@ -6,7 +6,7 @@ A **Quarkus 3** and **Java 17** project that fetches a list of public GitHub rep
 
 ## Endpoint
 
-**GET** `/github/{user}/repoWithBranches`
+**GET** `/github/{user}/reposWithBranches`
 
 Where `{user}` is the GitHub username.
 
@@ -65,7 +65,7 @@ The built application will be available as a **JAR** in the `target/` directory.
 Using **cURL**:
 
 ```sh
-curl -X GET http://localhost:8080/github/octocat/repoWithBranches
+curl -X GET http://localhost:8080/github/octocat/reposWithBranches
 ```
 
 Or with **Postman**.
